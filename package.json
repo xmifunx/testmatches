@@ -1,0 +1,35 @@
+{
+  "name": "testmatches",
+  "version": "1.0.0",
+  "description": "Homework test matches",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xmifunx/testmatches.git"
+  },
+  "keywords": [
+    "Homework"
+  ],
+  "author": "Mifun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xmifunx/testmatches/issues"
+  },
+  "homepage": "https://github.com/xmifunx/testmatches#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.24.7",
+    "@babel/core": "^7.24.7",
+    "@babel/eslint-parser": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "core-js": "^3.37.1"
+  }
+}
