@@ -1,10 +1,4 @@
-export default function calculateCondition(character) {
-  if (Number(character.health) > 50) {
-    return 'healthy';
-  }
-  if (Number(character.health) > 15 && Number(character.health) < 50) {
-    return 'wounded';
-  }
-
-  return 'critical';
+export default function sortByConditions(chars) {
+  const sortChars = chars.sort((x, y) => (Number(x.health) < Number(y.health) ? 1 : -1));
+  return sortChars;
 }
